@@ -136,38 +136,46 @@ html body .move_1 {
   height: 120px;
   position: fixed;
   right: 0px;
-  top: 278px;
+  top: 150px;
   background: url("../images/move_1.gif") no-repeat;
 }
 html body .move_2 {
   width: 70px;
   height: 70px;
   position: fixed;
-  right: 0px;
-  top: 420px;
+  left: 0;
+  top: 150px;
   background: url("../images/move_2.gif") no-repeat;
 }
 html body .move_3 {
   width: 86px;
   height: 70px;
   position: fixed;
-  right: 0px;
-  top: 510px;
+  left: 0px;
+  top: 240px;
   background: url("../images/move_3.gif") no-repeat;
 }
 html body .move_4 {
   width: 85px;
   height: 120px;
   position: fixed;
-  right: 10px;
-  top: 600px;
+  left: 10px;
+  top: 320px;
   background: url("../images/move_4.gif") no-repeat;
 }
 html body .move_5 {
   width: 86px;
   height: 70px;
   position: fixed;
-  right: 0px;
-  top: 745px;
+  left: 0px;
+  top: 450px;
   background: url("../images/move_5.gif") no-repeat;
+}
+html body .move_6 {
+  width: 86px;
+  height: 70px;
+  position: fixed;
+  right: 0px;
+  top: 280px;
+  background: url("../images/move_6.gif") no-repeat;
 }
