@@ -120,7 +120,7 @@ html body .rightIC {
   height: 134px;
   position: fixed;
   right: 5px;
-  top: 200px;
+  top: 133px;
 }
 html body .rightIC div {
   width: 67px;
@@ -135,7 +135,23 @@ html body .move_1 {
   width: 95px;
   height: 120px;
   position: fixed;
-  right: 5px;
-  top: 400px;
+  right: 0px;
+  top: 278px;
   background: url("../images/move_1.gif") no-repeat;
+}
+html body .move_2 {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 0px;
+  top: 420px;
+  background: url("../images/move_2.gif") no-repeat;
+}
+html body .move_3 {
+  width: 86px;
+  height: 70px;
+  position: fixed;
+  right: 0px;
+  top: 510px;
+  background: url("../images/move_3.gif") no-repeat;
 }
