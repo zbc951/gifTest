@@ -86,5 +86,23 @@ html {
             top: 510px;
             background: url('../images/move_3.gif') no-repeat;
         }
+
+        .move_4 {
+            width: 85px;
+            height: 120px;
+            position: fixed;
+            right: 10px;
+            top: 600px;
+            background: url('../images/move_4.gif') no-repeat;
+        }
+
+        .move_5 {
+            width: 86px;
+            height: 70px;
+            position: fixed;
+            right: 0px;
+            top: 745px;
+            background: url('../images/move_5.gif') no-repeat;
+        }
     }
 }
