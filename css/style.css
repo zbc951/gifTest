@@ -88,7 +88,7 @@ html body {
 }
 html body .wrap {
   position: relative;
-  min-width: 1420px;
+  min-width: 1450px;
   width: 100%;
   height: 100%;
 }
@@ -96,8 +96,8 @@ html body .wrap.nt3 .bg {
   background: url("../images/bg_1.jpg") no-repeat top center;
 }
 html body .wrap.nt3 .bg_inner {
-  width: 1414px;
-  height: 813px;
+  width: 1432px;
+  height: 829px;
   margin: 140px auto 0;
   background: url("../images/bg_2.jpg") no-repeat;
 }
