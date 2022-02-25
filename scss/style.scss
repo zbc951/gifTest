@@ -1,0 +1,72 @@
+@import "./reset";
+
+html {
+    width: 100%;
+    height: 100%;
+
+    body {
+        width: 100%;
+        height: 100%;
+
+        .wrap {
+            position: relative;
+            min-width: 1420px;
+            width: 100%;
+            height: 100%;
+
+            .bg {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 100%;
+                height: 977px;
+                background: url('../images/bg_1.jpg') no-repeat top center;
+            
+                .bg_inner {
+                    width: 1414px;
+                    height: 813px;
+                    margin: 140px auto 0;
+                    background: url('../images/bg_2.jpg') no-repeat;
+                }
+            }
+        }
+
+        .leftIC {
+            width: 62px;
+            height: 197px;
+            position: fixed;
+            left: 5px;
+            top: 200px;
+            background: url('../images/leftIC.png') no-repeat;
+        }
+
+        .rightIC {
+            width: 67px;
+            height: 134px;
+            position: fixed;
+            right: 5px;
+            top: 200px;
+            
+            div {
+                width: 67px;
+                height: 67px;
+                background: url('../images/rightIC.png') no-repeat;
+                background-size: 200%;
+
+                &:last-child {
+                    background-position-X: 100%;
+                }
+            }
+        }
+
+        .move_1 {
+            width: 95px;
+            height: 120px;
+            position: fixed;
+            right: 5px;
+            top: 400px;
+            background: url('../images/move_1.gif') no-repeat;
+        }
+    }
+}

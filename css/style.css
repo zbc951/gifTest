@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "微軟正黑體";
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: "微軟正黑體";
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0px;
+  font-family: "微軟正黑體";
+}
+
+select, input {
+  outline: none;
+  box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+main {
+  display: block;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+html body .wrap {
+  position: relative;
+  min-width: 1420px;
+  width: 100%;
+  height: 100%;
+}
+html body .wrap .bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 977px;
+  background: url("../images/bg_1.jpg") no-repeat top center;
+}
+html body .wrap .bg .bg_inner {
+  width: 1414px;
+  height: 813px;
+  margin: 140px auto 0;
+  background: url("../images/bg_2.jpg") no-repeat;
+}
+html body .leftIC {
+  width: 62px;
+  height: 197px;
+  position: fixed;
+  left: 5px;
+  top: 200px;
+  background: url("../images/leftIC.png") no-repeat;
+}
+html body .rightIC {
+  width: 67px;
+  height: 134px;
+  position: fixed;
+  right: 5px;
+  top: 200px;
+}
+html body .rightIC div {
+  width: 67px;
+  height: 67px;
+  background: url("../images/rightIC.png") no-repeat;
+  background-size: 200%;
+}
+html body .rightIC div:last-child {
+  background-position-X: 100%;
+}
+html body .move_1 {
+  width: 95px;
+  height: 120px;
+  position: fixed;
+  right: 5px;
+  top: 400px;
+  background: url("../images/move_1.gif") no-repeat;
+}
