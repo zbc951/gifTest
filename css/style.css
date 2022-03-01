@@ -183,15 +183,31 @@ html body .move_6 {
   width: 86px;
   height: 70px;
   position: fixed;
-  right: 0px;
-  top: 280px;
+  left: 0px;
+  top: 530px;
   background: url("../images/move_6.gif") no-repeat;
 }
 html body .move_7 {
   width: 85px;
   height: 90px;
   position: fixed;
-  right: 0px;
-  top: 380px;
+  right: 5px;
+  top: 280px;
   background: url("../images/move_7.gif") no-repeat;
+}
+html body .move_8 {
+  width: 112px;
+  height: 90px;
+  position: fixed;
+  right: 3px;
+  top: 380px;
+  background: url("../images/move_8.gif") no-repeat;
+}
+html body .move_9 {
+  width: 100px;
+  height: 75px;
+  position: fixed;
+  right: 3px;
+  top: 480px;
+  background: url("../images/move_9.gif") no-repeat;
 }
