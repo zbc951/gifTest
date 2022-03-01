@@ -187,3 +187,11 @@ html body .move_6 {
   top: 280px;
   background: url("../images/move_6.gif") no-repeat;
 }
+html body .move_7 {
+  width: 85px;
+  height: 90px;
+  position: fixed;
+  right: 0px;
+  top: 380px;
+  background: url("../images/move_7.gif") no-repeat;
+}
